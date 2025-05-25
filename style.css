@@ -1,0 +1,205 @@
+ html{
+    scroll-behavior: smooth;
+ }
+.bodym{
+    background-image: url("https://img1.picmix.com/output/stamp/normal/1/0/6/6/1886601_8db94.gif");
+    background-repeat: cover;
+    color:white;
+}
+ .carousel-container {
+            max-width: 800px; /* Adjust this to your preferred max width */
+            margin: 0 auto; /* This centers the carousel */
+        }
+        
+        .carousel-inner {
+            border-radius: 10px; /* Optional: adds rounded corners */
+            overflow: hidden; /* Ensures the images respect the border radius */
+        }
+        
+        .carousel-item img {
+            object-fit: cover; /* Ensures images maintain aspect ratio */
+            height: 500px; /* Set a fixed height for all images */
+            width: 100%; /* Makes images take full width of container */
+        }
+        
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            padding:5px;
+            color:white;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            /*background-color: #e992ae;*/
+        }
+        
+        .heading {
+            margin: 0;
+            font-weight: bold;
+        }
+nav a{
+    text-decoration: none;
+    color:white;
+}
+.main{
+    background-image: url("https://i.pinimg.com/originals/92/40/9f/92409f75241dbe1c5962c01a3a72ccf0.gif");
+    background-repeat: cover;
+    display: flex;
+    justify-content: center;
+}
+.gif{
+    margin-left:50px;
+    width:350px;
+    height:350px;
+}
+
+#letter{
+    margin-top:150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.letter{
+   margin-top:40px;
+   margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+    background-color: #f1767c;
+    color:rgb(249, 230, 230);
+    border-radius: 30px;
+   
+}
+.h{
+    font-weight: bold;
+    font-size: 20px;
+}
+.letter p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding:10px;
+}
+#songs{
+    margin-top:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#songs img{
+    width: 250px;;
+    height:250px;
+    box-shadow:3px 3px 20px #aa1920;
+}
+.songs{
+    display:flex;
+    justify-content: space-around;
+}
+.songs2{
+    display:flex;
+    justify-content: space-around;
+}
+
+.song{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5px;
+}
+.song p{
+    font-family: monospace;
+    padding: 5px;
+}
+.song a{
+    text-decoration: none;
+    color:black;
+}
+
+#memory .img-1{
+    width:230px;
+    height:400px;
+}
+#memory .img-2,#memory .img-3,#memory .img-4,#memory .img-6,#memory .img-8,#memory .img-9,#memory .img-10{
+    width:250px;
+    height:400px;
+}
+.move{
+    margin-top:83px;
+}
+#memory .img-11,#memory .img-12,#memory .img-13,#memory .img-14,#memory .img-15{
+    width:250;
+    height:400px;
+}
+#memory img{
+    width:250px;
+    height:320px;
+    box-shadow: 3px 3px 20px #aa1920;
+}
+.memory{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#memory .memory div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+}
+#memory{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contain{
+     display: flex;
+    flex-direction: column;
+    width:600px;
+    align-items: center;
+    padding:27px;
+    background-color: #f58a8f;
+    color:whitesmoke;
+    border-radius: 30px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+button[type=submit]{
+    border:none;
+    background-color: white;
+    padding:10px;
+    border-radius: 15px;
+    width:90px;
+    transition:0.3s ;
+}
+button[type=submit]:hover{
+background-color: rgb(236, 233, 233);
+}
+.body3{
+    display:flex;
+    justify-content: center;
+    margin-top:200px;
+    background-image: url("https://i.pinimg.com/originals/34/89/b2/3489b23455dcda51d45ca122ed01fb67.gif");
+    background-repeat: cover;
+}
+.contain p,b,button{
+font-size:1.5rem;
+}
+
+#songs a p{
+    color:white;
+}
